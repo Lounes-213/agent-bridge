@@ -1,0 +1,44 @@
+{
+  "name": "agent-bridge",
+  "version": "0.1.0",
+  "description": "Free open-source relay that lets coding agents on different machines exchange messages, claim files, and share artifacts. No account, no server bill, no vendor lock-in.",
+  "type": "module",
+  "bin": {
+    "agent-bridge": "src/cli.js",
+    "ab": "src/cli.js",
+    "agent-bridge-mcp": "src/mcp.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/cli.js host",
+    "test": "node --test"
+  },
+  "keywords": [
+    "agents",
+    "mcp",
+    "collaboration",
+    "relay",
+    "local-first",
+    "ai",
+    "open-source",
+    "file-sharing",
+    "messaging"
+  ],
+  "license": "MIT",
+  "author": "Agent Bridge contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agent-bridge/agent-bridge.git"
+  },
+  "files": [
+    "src",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ]
+}
